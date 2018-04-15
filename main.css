@@ -1,6 +1,7 @@
  body {
     background-color: rgba(162, 214, 113, 1) !important;
-
+    overflow-y: scroll;
+    overflow-x: hidden;
 } 
 
  ul {
