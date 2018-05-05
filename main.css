@@ -28,7 +28,7 @@ ul li a {
 }
 
 #aboutSection {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 10em;
     -webkit-transform: translateX(-50%);
@@ -51,100 +51,73 @@ ul li a {
     top: 3em;
 }
 
-#portfolio-section {
+#portfolioSection {
+    padding: 1.875em; 
+    padding: none;
+    text-align: center;
     position: relative;
+    top: 24em;
 }
 
-#portfolioTop {
-    position: absolute;
-    left: 50%;
-    top: 40em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+#portfolioText {
+    position: relative;
+    bottom: 1em;
+    color: white;
+
 }
 
 .thumbnail {
     background-color: rgba(162, 214, 113, 1) !important;
     border-color: rgba(162, 214, 113, 1) !important;
-
-
+    height: 30em;
+    width: 30em;
 }
 
-#row0 {
-    position: absolute;
-    left: 50%;
-    top: 45em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+#firstRow {
+    display: inline-block;
 }
 
-
-#row1 {
-    position: absolute;
-    left: 50%;
-    top: 65em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+#secondRow {
+    display: inline-block;
 }
 
-#row2 {
-    position: absolute;
-    left: 50%;
-    top: 85em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-h6 {
-    text-align: center;
-    background-color: rgba(162, 214, 113, 1);
-    position: relative;
-    bottom: .9em;
+#thirdRow {
+    display: inline-block;
 }
 
 #contactSection {
-    position: absolute;
-    left: 50%;
-    top: 102em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); 
+    margin: 0 auto;
+    width: 6.25em;
+    position: relative;
+    top: 12em;
 }
 
 #liImg {
-    position: absolute;
-    margin: 0 auto;
-    top: 3em;
-    right: 3.2em;
+    position: relative;
+    left: .3em;
 }
 
 #gitHubSection {
-    position: absolute;
-    left: 50%;
-    top: 111em;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); 
+    margin: 0 auto;
+    width: 6.25em;
+    position: relative;
+    top: 13em;
+
+}
+
+#ghText {
+    position: relative;
+    left: .3em;
 }
 
 #ghImg {
-    position: absolute;
-    margin: 0 auto;
-    left: .1em;
-
+    position: relative;
+    left: .4em;
 }
 
-#footerText {
-    color: black;
-    position: absolute;
-    left: 50%;
-    width: 60em;
-    top: 120em;
+#footerDiv {
+    position: relative;
+    top: 15em;
     text-align: center;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
 
 }
-
-
-
-
-

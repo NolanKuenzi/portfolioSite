@@ -8,18 +8,13 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
 
-
-	
 </head>
-
 <body>
-
 		<nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
 			<ul id="icons">
-
 				<li><a href="#aboutSection"><h5>About<h5></a></li>
-				<li><a href="#portfolioTop"><h5>Portfolio</h5></a></li>
-				<li><a href="#contactMe"><h5>Contact</h5></a></li>
+				<li><a href="#portfolioSection"><h5>Portfolio</h5></a></li>
+				<li><a href="#contactSection"><h5>Contact</h5></a></li>
 				<li><a href="#gitHubSection"><h5>GitHub</h5></a></li>
 			</ul> 
 		</nav>
@@ -38,13 +33,11 @@
 	</div>
 	</div>
 
-
-<div id="portfolio-section"> 
-	<div id="portfolioTop">
-	<h4 class="text-center">Portfolio:</h4><br>
-	</div>
+	<div id="portfolioSection"> 
 	
-	<div class="row" id="row0">
+	<div><h4 class="text-center" id="portfolioText">Portfolio:</h4><br></div>
+
+	<div classs="row" id="firstRow">
     	<div class="col-md-6">
     		<div class="thumbnail"><a href="https://nolankuenzi.github.io/quoteMachine/" target="_blank">
 				<img src="Portfolio_Images/Favorite_Quotes.png" class="img-thumbnail" id="i0"></a>
@@ -52,9 +45,8 @@
          		<h6>Random Quote Generator</h6>
          	</div>
 			</div>
-		</div>
-	
-   	
+		</div> 
+
     	<div class="col-md-6">
     		<div class="thumbnail"><a href="https://nolankuenzi.github.io/wikipediaViewer/" target="_blank">
 				<img src="Portfolio_Images/Wikipedia_Viewer.png" class="img-thumbnail" id="i1"></a>
@@ -65,7 +57,7 @@
 		</div>
 	</div>
 	
-	<div class="row" id="row1">
+	<div class="row" id="secondRow">
 	<div class="col-md-6">
     		<div class="thumbnail"><a href="https://nolankuenzi.github.io/basicCalculator/" target="_blank">
 				<img src="Portfolio_Images/JavaScript_Calculator.png" class="img-thumbnail" id="i2"></a>
@@ -73,8 +65,7 @@
          		<h6>JavaScript Calculator</h6>
          	</div>
 			</div>
-		
-	</div>
+		</div>
 	<div class="col-md-6">
     		<div class="thumbnail"><a href="https://nolankuenzi.github.io/pomodoroTimer/" target="_blank">
 				<img src="Portfolio_Images/Pomodoro_Timer.png" class="img-thumbnail" id="i3"></a>
@@ -83,10 +74,10 @@
          	</div>
 			</div>
 		</div>
-
 	</div>
 
-	<div class="row" id="row2">
+
+	<div class="row" id="thirdRow">
 	<div class="col-md-6">
     		<div class="thumbnail"><a href="https://nolankuenzi.github.io/ticTacToeV2/" target="_blank">
 				<img src="Portfolio_Images/ticTacToe.png" class="img-thumbnail" id="i4"></a>
@@ -104,32 +95,28 @@
          	</div>
 			</div>
 		</div>
-
-	</div> 
+	</div>	
 </div> 
 
+<div>
 	<div id="contactSection">
-	<div class="row">
-		<h4 class="text-center" id="contactMe">Contact Me:</h4>
-		<div class="col-md-6" id="liImg"><a href="https://www.linkedin.com/in/nolan-kuenzi-07770473/" target="_blank"><img src="Portfolio_Images/LI_icon.png"></a></div>
+	<h4>Contact:</h4>
+		<a href="https://www.linkedin.com/in/nolan-kuenzi-07770473/" target="_blank"><img src="Portfolio_Images/LI_icon.png" id="liImg"></a>
 	</div>
-	</div>
-	
+
 	<div id="gitHubSection">
-		<div class="row">
-		<h4 class="text-center" id="gHubText">GitHub Profile:</h4>
-		<div class="col-md-6" id="ghImg"><a href="https://github.com/NolanKuenzi" target="_blank"><img src="Portfolio_Images/GH_icon.png"></a></div>
+		<h4 id="ghText">GitHub:</h4>
+		<a href="https://github.com/NolanKuenzi" target="_blank"><img src="Portfolio_Images/GH_icon.png" id="ghImg"></a>
 	</div>
 	</div> 
-
-
+	<div id="footerDiv">
 	<footer>
-        <div>
             <span id="footerText"> 
                 Copyright © 2018 Nolan Kuenzi. Made for the freeCodeCamp Development Challenge: Build a Personal Portfolio Webpage
             </span>
         </div>
-	</footer> 		
+	</footer> 
+	</div>		
 
 </body>
 </html>
