@@ -20,9 +20,6 @@
 
 }
 
-
-
-
 ul li a {
      color: white; 
      text-decoration: underline; 
@@ -30,107 +27,124 @@ ul li a {
      background-color: blue !important;
 }
 
-
-#about-section {
-    position: relative;
-    padding-top: 31.25em;
-    
+#aboutSection {
+    position: absolute;
+    left: 50%;
+    top: 10em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
-#about-me-text {
+#h3AM {
+    bottom: .5em;
     position: relative;
-    bottom: 250px;
     color: white;
-
 }
 
-
-#Portfolio_Pic {
+#h4AM {
     position: relative;
-    top: 1.5em;
-    border: .2em solid white;
+    color: white;
+}
+
+#aboutSectionPic {
+    position: relative;
+    top: 3em;
+}
+
+#portfolio-section {
+    position: relative;
+}
+
+#portfolioTop {
+    position: absolute;
+    left: 50%;
+    top: 40em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .thumbnail {
     background-color: rgba(162, 214, 113, 1) !important;
     border-color: rgba(162, 214, 113, 1) !important;
+
+
 }
 
-#i0 {
-    position: relative;
-    left: 1em;
+#row0 {
+    position: absolute;
+    left: 50%;
+    top: 45em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
-#i1 {
-    position: relative;
-    right: 1em;
+
+#row1 {
+    position: absolute;
+    left: 50%;
+    top: 65em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
-#i2 {
-    position: relative;
-    left: 1em;
+#row2 {
+    position: absolute;
+    left: 50%;
+    top: 85em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
-
-#i3 {
-    position: relative;
-    right: 1em;
-}
-
-#i4 {
-    position: relative;
-    left: 1em;
-}
-
-#i5 {
-    position: relative;
-    right: 1em;
-}
-
 
 h6 {
     text-align: center;
     background-color: rgba(162, 214, 113, 1);
     position: relative;
-    bottom: 1em;
+    bottom: .9em;
 }
 
-#contact-section {
-     position: relative;
-     top: 2em;
-     
-     
+#contactSection {
+    position: absolute;
+    left: 50%;
+    top: 102em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); 
 }
 
-#cTactText {
-    position: relative;
-    bottom: 3em;
+#liImg {
+    position: absolute;
+    margin: 0 auto;
+    top: 3em;
+    right: 3.2em;
 }
 
-#LI {
-    position: relative;
-    left: 49.2em;
-    bottom: 3em;  
+#gitHubSection {
+    position: absolute;
+    left: 50%;
+    top: 111em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); 
 }
 
-#gHubText {
-    position: relative;
-    bottom: 0.5em;
+#ghImg {
+    position: absolute;
+    margin: 0 auto;
+    left: .1em;
 
 }
 
-#GH {
-    position: relative;
-    left: 49.2em;
-}
-
-
-footer {
-    position: relative;
-    top: 0.5em;
+#footerText {
+    color: black;
+    position: absolute;
+    left: 50%;
+    width: 60em;
+    top: 120em;
     text-align: center;
-    font-weight: bold;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 
 }
+
+
 
 
 
