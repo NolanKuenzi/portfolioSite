@@ -69,8 +69,8 @@ ul li a {
 .thumbnail {
     background-color: rgba(162, 214, 113, 1) !important;
     border-color: rgba(162, 214, 113, 1) !important;
-    height: 30em;
-    width: 30em;
+    height: 40em;
+    width: 40em;
 }
 
 #firstRow {
