@@ -30,7 +30,7 @@ ul li a {
 #aboutSection {
     position: relative;
     left: 50%;
-    top: 10em;
+    top: 7em;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
@@ -46,24 +46,23 @@ ul li a {
     color: white;
 }
 
-#aboutSectionPic {
-    position: relative;
-    top: 3em;
-}
-
 #portfolioSection {
-    padding: 1.875em; 
-    padding: none;
     text-align: center;
     position: relative;
-    top: 24em;
+    top: 23em;
 }
 
 #portfolioText {
     position: relative;
-    bottom: 1em;
+    bottom: 1.5em;
     color: white;
 
+}
+
+.portfolioSubText {
+    color: white;
+    position: relative;
+    text-align: center;
 }
 
 .thumbnail {
@@ -73,23 +72,26 @@ ul li a {
     width: 40em;
 }
 
+.row {
+    display: inline-block;
+}
+
 #firstRow {
     display: inline-block;
 }
 
-#secondRow {
-    display: inline-block;
-}
-
-#thirdRow {
-    display: inline-block;
+#bottomSection {
+    position: relative;
+    bottom: 5em;
 }
 
 #contactSection {
     margin: 0 auto;
     width: 6.25em;
     position: relative;
-    top: 12em;
+    bottom: 6em;
+    left: .15em;
+    text-align: center;
 }
 
 #liImg {
@@ -101,23 +103,23 @@ ul li a {
     margin: 0 auto;
     width: 6.25em;
     position: relative;
-    top: 13em;
+    bottom: 1.5em;
 
 }
 
 #ghText {
     position: relative;
-    left: .3em;
+    left: .2em;
 }
 
 #ghImg {
     position: relative;
-    left: .4em;
+    left: .2em;
 }
 
-#footerDiv {
+footer {
     position: relative;
-    top: 15em;
     text-align: center;
+    bottom: 2em;
 
 }
