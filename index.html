@@ -5,149 +5,108 @@
 	<meta charset="UTF-8">
 	<title>Nolan Kuenzi Portfolio Page</title>
 	<link  href="main.css" type="text/css" rel="stylesheet" />
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
-
 </head>
+
 <body>
-		<nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
-			<ul id="icons">
+<div id="contain"> 
+
+		<div id="navBar">
+		<nav>
+			<ul>
 				<li><a href="#aboutSection"><h5>About<h5></a></li>
-				<li><a href="#portfolioSection"><h5>Portfolio</h5></a></li>
+				<li><a href="#portfolioHeader"><h5>Portfolio</h5></a></li>
 				<li><a href="#contactSection"><h5>Contact</h5></a></li>
 				<li><a href="#gitHubSection"><h5>GitHub</h5></a></li>
 			</ul> 
 		</nav>
-		
-			
-<div id="aboutSection">
-	<div id="aboutSectionText">
-		<h3 class="text-center" id="h3AM">About Me:</h3>
-		<h4 class="text-center" id="h4AM">Hi, I'm Nolan Kuenzi. I am a web-developer from the US. This page is a <br> portfolio of projects that I have worked on.</h4>
+		</div>
+				
+	<div id="aboutSection">
+		<div id="aboutSectionText">
+			<h2 id="h3AM">About Me:</h2>
+			<h3 id="h4AM">Hi, I'm Nolan Kuenzi. I am a web-developer from the US. This page is a <br> portfolio of projects that I have worked on.</h3>
+		</div>
 	</div>
-
-</div>
-
+	
+	
+	<div id="portfolioHeader">	
+		<div id="portfolioText"><h3>Portfolio</h3></div><br />
+		<div class="portfolioSubText"><h4>Basic Projects:</h4></div>
+	</div>
+    		
 	<div id="portfolioSection"> 
-	<div><h4 class="text-center" id="portfolioText">Portfolio</h4>
-	<br>
-	<p class="portfolioSubText">Basic Projects:</p>
+    	<div class="row">
+    		<div class="imgDiv"><a href="https://nolankuenzi.github.io/favoriteQuotes/" target="_blank">
+				<img src="Portfolio_Images/Favorite_Quotes.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Random Quote Generator</h5>
+			</div> 
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/wikipediaViewer/" target="_blank">
+				<img src="Portfolio_Images/Wikipedia_Viewer.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Wikipedia Viewer App</h5>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/basicCalculator/" target="_blank">
+				<img src="Portfolio_Images/JavaScript_Calculator.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">JavaScript Calculator</h5>
+			</div>
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/pomodoroTimer/" target="_blank">
+				<img src="Portfolio_Images/Pomodoro_Timer.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Pomodoro Timer</h5>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/ticTacToeV2/" target="_blank">
+				<img src="Portfolio_Images/ticTacToe.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Tic-Tac-Toe Game</h5>
+			</div>
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/simonGame/" target="_blank">
+				<img src="Portfolio_Images/Simon_Game.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Simon Game</h5>
+			</div>
+		</div>
+
+	<div id="reactHeader">
+		<div class="portfolioSubText"><h4>React Projects:</h4></div>
 	</div>
 
-	<div classs="row" id="firstRow">
-    	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/favoriteQuotes/" target="_blank">
-				<img src="Portfolio_Images/Favorite_Quotes.png" class="img-thumbnail" id="i0"></a>
-			<div class = "caption center-block">
-         		<h6>Random Quote Generator</h6>
-         	</div>
+		<div class="row">
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/todoApp/" target="_blank">
+				<img src="Portfolio_Images/Todo_App.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Todo-List App</h5>
 			</div>
-		</div> 
-
-    	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/wikipediaViewer/" target="_blank">
-				<img src="Portfolio_Images/Wikipedia_Viewer.png" class="img-thumbnail" id="i1"></a>
-			<div class = "caption center-block">
-         		<h6>Wikipedia Viewer App</h6>
-         	</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="row" id="secondRow">
-	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/basicCalculator/" target="_blank">
-				<img src="Portfolio_Images/JavaScript_Calculator.png" class="img-thumbnail" id="i2"></a>
-			<div class = "caption center-block">
-         		<h6>JavaScript Calculator</h6>
-         	</div>
-			</div>
-		</div>
-	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/pomodoroTimer/" target="_blank">
-				<img src="Portfolio_Images/Pomodoro_Timer.png" class="img-thumbnail" id="i3"></a>
-			<div class = "caption center-block">
-         		<h6>Pomodoro Timer</h6>
-         	</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="row" id="thirdRow">
-	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/ticTacToeV2/" target="_blank">
-				<img src="Portfolio_Images/ticTacToe.png" class="img-thumbnail" id="i4"></a>
-			<div class = "caption center-block">
-         		<h6>Tic-Tac-Toe Game</h6>
-         	</div>
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/reactCalculator/" target="_blank">
+				<img src="Portfolio_Images/React_Calculator.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText"><h5>React Calculator</h5>
 			</div>
 		</div>
 
-		<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/simonGame/" target="_blank">
-				<img src="Portfolio_Images/Simon_Game.png" class="img-thumbnail" id="i5"></a>
-			<div class = "caption center-block">
-         		<h6>Simon Game</h6>
-         	</div>
+		<div class="row">
+			<div class="imgDiv"><a href="https://nolankuenzi.github.io/markdownPreviewer/" target="_blank">
+				<img src="Portfolio_Images/markdownPreviewer.png" class="thumbnailImg"></a>
+				<h5 class="thumbnailText">Markdown Previewer</h5>
 			</div>
-		</div>
-	</div>	
+		</div> <!-- Incomplete Row -->
 
-	<div id="reactSection">
-	<div><p class="portfolioSubText">React Projects:</p></div>
-	<div class="row" id="fourthRow">
-	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/todoApp/" target="_blank">
-				<img src="Portfolio_Images/Todo_App.png" class="img-thumbnail" id="i6"></a>
-			<div class = "caption center-block">
-         		<h6>Todo-List App</h6>
-         	</div>
-			</div>
-		</div>
+	</div> <!-- Portfolio End -->
 
-	<div class="col-md-6">
-    <div class="thumbnail"><a href="https://nolankuenzi.github.io/reactCalculator/" target="_blank">
-			<img src="Portfolio_Images/React_Calculator.png" class="img-thumbnail" id="i7"></a>
-	<div class = "caption center-block">
-         		<h6>React Calculator</h6>
-         	</div>
-			</div>
-		</div>
-	
-	<div class="row" id="fifthRow">
-	<div class="col-md-6">
-    		<div class="thumbnail"><a href="https://nolankuenzi.github.io/markdownPreviewer/" target="_blank">
-				<img src="Portfolio_Images/markdownPreviewer.png" class="img-thumbnail" id="i8"></a>
-			<div class = "caption center-block">
-         		<h6>Markdown Previewer</h6>
-         	</div>
-			</div>
-		</div>
-
-	</div> <!-- Fifth Row End -->
-	</div> <!-- React Section End -->
-</div> <!-- Portfolio Section End --> 
-	<div id="bottomSection">
-	
 	<div id="contactSection">
-	<h4>Contact:</h4>
-		<a href="https://www.linkedin.com/in/nolan-kuenzi-07770473/" target="_blank"><img src="Portfolio_Images/LI_icon.png" id="liImg"></a>
+		<div id="contactText"><h4>Contact:</h4></div>
+		<div id="liImg"><a href="https://www.linkedin.com/in/nolan-kuenzi-07770473/" target="_blank"><img src="Portfolio_Images/LI_icon.png"></a></div>
 	</div>
 
 	<div id="gitHubSection">
-		<h4 id="ghText">GitHub:</h4>
-		<a href="https://github.com/NolanKuenzi" target="_blank"><img src="Portfolio_Images/GH_icon.png" id="ghImg"></a>
+		<div id="ghText"><h4>GitHub:</h4></div>
+		<div id="ghImg"><a href="https://github.com/NolanKuenzi" target="_blank"><img src="Portfolio_Images/GH_icon.png"></a>
 	</div>
-	</div> 
-	
 
-	<footer>
-            <span id="footerText"> 
-                Copyright © 2018 Nolan Kuenzi. Made for the freeCodeCamp Development Challenge: Build a Personal Portfolio Webpage
-            </span>
-        </div>
-	</footer> 
-	</div> <!-- Closes Entire Bottom Section -->
-</body>
+</div> <!-- Contain -->
+
+	<div id="footer">	      
+  	  <p><strong>Copyright © 2018 Nolan Kuenzi. Made for the freeCodeCamp Development Challenge: Build a Personal Portfolio Webpage.</strong></p>
+	</div>
+
+</body> 
 </html>
