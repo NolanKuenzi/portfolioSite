@@ -1,6 +1,6 @@
  html {
     height: 100%;
- }
+}
 
  body {
     background-color: rgba(162, 214, 113, 1) !important;
@@ -125,4 +125,5 @@ ul li a {
     text-align: center;
     margin-top: 1.5em;
 }
+
 
