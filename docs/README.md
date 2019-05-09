@@ -1,0 +1,1 @@
+'docs' folder is being used as a Netlify build folder.
