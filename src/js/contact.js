@@ -81,12 +81,12 @@ const Contact = () => (
           <img
             id="LinkedIn_Icon"
             className="iconImg"
-            src="./dist/images/LinkedIn_icon.svg"
+            src="../../dist/images/LinkedIn_icon.svg"
             alt=""
           />
         </a>
         <a href="mailto:mr.nolank@gmail.com" id="gMail" target="_blank" rel="noopener noreferrer">
-          <img id="gMailIcon" className="iconImg" src="./dist/images/Gmail_Icon.png" alt="" />
+          <img id="gMailIcon" className="iconImg" src="../../dist/images/Gmail_Icon.png" alt="" />
         </a>
         <a
           href="https://medium.com/@mr.nolank"
@@ -94,7 +94,7 @@ const Contact = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img id="mediumIcon" className="iconImg" src="./dist/images/Medium_Logo.svg" alt="" />
+          <img id="mediumIcon" className="iconImg" src="../../dist/images/Medium_Logo.svg" alt="" />
         </a>
       </div>
     </div>
