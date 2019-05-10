@@ -264,7 +264,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Recipe Box App</h5>
-        <img src="./dist/images/Recipe_Box.png" className="thumbnailImg" alt="" />
+        <img src="./images/Recipe_Box.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
