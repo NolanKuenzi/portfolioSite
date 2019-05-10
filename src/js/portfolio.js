@@ -11,7 +11,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Random Quote Generator</h5>
-        <img src="../../dist/images/Favorite_Quotes.png" className="thumbnailImg" alt="" />
+        <img src="./images/Favorite_Quotes.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -35,7 +35,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Wikipedia Viewer App</h5>
-        <img src="../../dist/images/Wikipedia_Viewer.png" className="thumbnailImg" alt="" />
+        <img src="./images/Wikipedia_Viewer.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
