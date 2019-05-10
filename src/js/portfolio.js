@@ -61,7 +61,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">JavaScript Calculator</h5>
-        <img src="../../dist/images/JavaScript_Calculator.png" className="thumbnailImg" alt="" />
+        <img src="./images/JavaScript_Calculator.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -85,7 +85,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Pomodoro Timer</h5>
-        <img src="../../dist/images/Pomodoro_Timer.png" className="thumbnailImg" alt="" />
+        <img src="./images/Pomodoro_Timer.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -111,7 +111,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Tic-Tac-Toe Game</h5>
-        <img src="../../dist/images/Tic_Tac_Toe.png" className="thumbnailImg" alt="" />
+        <img src="./images/Tic_Tac_Toe.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -135,7 +135,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Simon Game</h5>
-        <img src="../../dist/images/Simon_Game.png" className="thumbnailImg" alt="" />
+        <img src="./images/Simon_Game.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -164,7 +164,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Todo-List App</h5>
-        <img src="../../dist/images/Todo_App.png" className="thumbnailImg" alt="" />
+        <img src="./images/Todo_App.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -188,7 +188,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">React Calculator</h5>
-        <img src="../../dist/images/React_Calculator.png" className="thumbnailImg" alt="" />
+        <img src="./images/React_Calculator.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -214,7 +214,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Markdown Previewer</h5>
-        <img src="../../dist/images/Markdown_Previewer.png" className="thumbnailImg" alt="" />
+        <img src="./images/Markdown_Previewer.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -238,7 +238,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Drum Machine</h5>
-        <img src="../../dist/images/Drum_Machine.png" className="thumbnailImg" alt="" />
+        <img src="./images/Drum_Machine.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -264,7 +264,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Recipe Box App</h5>
-        <img src="../../dist/images/Recipe_Box.png" className="thumbnailImg" alt="" />
+        <img src="./dist/images/Recipe_Box.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -288,7 +288,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Local Weather App</h5>
-        <img src="../../dist/images/Local_Weather.png" className="thumbnailImg" alt="" />
+        <img src="./images/Local_Weather.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -314,7 +314,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Pokémon Habitats</h5>
-        <img src="../../dist/images/Pokemon_Habitats.png" className="thumbnailImg" alt="" />
+        <img src="./images/Pokemon_Habitats.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -338,7 +338,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Emoji Search</h5>
-        <img src="../../dist/images/Emoji_Search.png" className="thumbnailImg" alt="" />
+        <img src="./images/Emoji_Search.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -364,7 +364,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Top Twitch Streams</h5>
-        <img src="../../dist/images/Top_Twitch_Streams.png" className="thumbnailImg" alt="" />
+        <img src="./images/Top_Twitch_Streams.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -388,7 +388,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Twitch Clips</h5>
-        <img src="../../dist/images/Twitch_Clips.png" className="thumbnailImg" alt="" />
+        <img src="./images/Twitch_Clips.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -417,7 +417,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Bar Chart</h5>
-        <img src="../../dist/images/Bar_Chart.png" className="thumbnailImg" alt="" />
+        <img src="./images/Bar_Chart.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -441,7 +441,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Scatterplot Graph</h5>
-        <img src="../../dist/images/Scatterplot_Graph.png" className="thumbnailImg" alt="" />
+        <img src="./images/Scatterplot_Graph.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -467,7 +467,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Heat Map</h5>
-        <img src="../../dist/images/Heat_Map.png" className="thumbnailImg" alt="" />
+        <img src="./images/Heat_Map.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -491,7 +491,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Choropleth Map</h5>
-        <img src="../../dist/images/Choropleth_Map.png" className="thumbnailImg" alt="" />
+        <img src="./images/Choropleth_Map.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -520,7 +520,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">Timestamp Microservice</h5>
-        <img src="../../dist/images/Time_Stamp_Microservice.png" className="thumbnailImg" alt="" />
+        <img src="./images/Time_Stamp_Microservice.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -544,11 +544,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Request Header Parser Microservice</h5>
-        <img
-          src="../../dist/images/Header_Parser_Microservice.png"
-          className="thumbnailImg"
-          alt=""
-        />
+        <img src="./images/Header_Parser_Microservice.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -574,11 +570,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">URL Shortener Microservice</h5>
-        <img
-          src="../../dist/images/Url_Shortener_Microservice.png"
-          className="thumbnailImg"
-          alt=""
-        />
+        <img src="./images/Url_Shortener_Microservice.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -602,7 +594,7 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <h5 className="thumbnailText">Exercise Tracker</h5>
-        <img src="../../dist/images/Exercise_Tracker.png" className="thumbnailImg" alt="" />
+        <img src="./images/Exercise_Tracker.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
@@ -628,11 +620,7 @@ const Portfolio = () => (
     <div className="row">
       <div className="imgDiv">
         <h5 className="thumbnailText">File Metadata Microservice</h5>
-        <img
-          src="../../dist/images/File_Metadata_Microservice.png"
-          className="thumbnailImg"
-          alt=""
-        />
+        <img src="./images/File_Metadata_Microservice.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
             <a
