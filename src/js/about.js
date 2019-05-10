@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => (
   <div id="aboutSection">
     <div>
-      <img id="aboutImg" src="./dist/images/Pixel_Art.jpg" alt="" />
+      <img id="aboutImg" src="../../dist/images/Pixel_Art.jpg?nf_resize=fit&w=1192&h=672" alt="" />
     </div>
     <div id="aboutText">
       <h3>About Me:</h3>
