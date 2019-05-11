@@ -22,3 +22,5 @@ coverage
 .DS_Store
 /altApis
 /dist/statistics.html
+/server
+/src/static
