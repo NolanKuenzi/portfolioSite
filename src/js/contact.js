@@ -16,7 +16,7 @@ const MessageMe = () => {
       <div id="messageDivHeader">
         <h3>Message Me:</h3>
       </div>
-      <form action="http://localhost:3000/send/" method="post">
+      <form action="https://powerful-lowlands-40404.herokuapp.com/send/netlify" method="post">
         <div>
           <div id="nameLabel" className="labels">
             <h4>Name:</h4>
