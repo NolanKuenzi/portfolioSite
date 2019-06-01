@@ -3,7 +3,6 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import About from './about';
 import Portfolio from './portfolio';
 import Contact from './contact';
-import Footer from './footer';
 
 const ReactRouter = () => (
   <Router>
