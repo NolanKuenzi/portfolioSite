@@ -515,7 +515,7 @@ const Portfolio = () => (
       </div>
     </div>
     <div className="portfolioSubText">
-      <h4>Express Projects:</h4>
+      <h4>Express/Full Stack Projects:</h4>
     </div>
     <div className="row">
       <div className="imgDiv">
@@ -658,6 +658,32 @@ const Portfolio = () => (
           <span className="thumbnailText">
             <a
               href="https://whispering-bayou-48878.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Project
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+        <h5 className="thumbnailText">Issue Tracker</h5>
+        <img src="./images/Issue_Tracker.png" className="thumbnailImg" alt="" />
+        <div>
+          <span className="thumbnailText">
+            <a
+              href="https://github.com/NolanKuenzi/issueTracker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repository
+            </a>
+          </span>
+          <span className="thumbnailText">
+            <a
+              href="https://shrouded-waters-89012.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
