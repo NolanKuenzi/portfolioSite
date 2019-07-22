@@ -23,4 +23,4 @@ coverage
 /altApis
 /dist/statistics.html
 /server
-/hold
+/src/static
