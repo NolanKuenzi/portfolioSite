@@ -1,22 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
+import regeneratorRuntime, { async } from 'regenerator-runtime';
 import Footer from './footer';
 
-const submitFunc = () => {
-  const name = document.getElementById('contactName');
-  const email = document.getElementById('contactEmail');
-  const message = document.getElementById('contactMessage');
-  if (name.value === '' || email.value === '' || message.value === '') {
-    alert('Please complete all form fields');
-  }
-};
-
 const MessageMe = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState();
+
+  const submitFunc = async event => {
+    event.preventDefault();
+    try {
+      const request = await axios.post('https://powerful-lowlands-40404.herokuapp.com/send', {
+        name,
+        email,
+        message,
+      });
+      if (request.status === 200) {
+        setName('');
+        setEmail('');
+        setMessage('');
+      }
+    } catch (error) {
+      if (error.response !== undefined) {
+        alert(error.response.data);
+        return;
+      }
+      alert(error);
+    }
+  };
   return (
     <div id="messageDiv">
       <div id="messageDivHeader">
         <h3>Message Me:</h3>
       </div>
-      <form action="https://powerful-lowlands-40404.herokuapp.com/send/netlify" method="post">
+      <form onSubmit={event => submitFunc(event)}>
         <div>
           <div id="nameLabel" className="labels">
             <h4>Name:</h4>
@@ -26,7 +44,8 @@ const MessageMe = () => {
             className="contactSecAttr"
             id="contactName"
             placeholder="Your Name"
-            name="name"
+            value={name}
+            onChange={event => setName(event.target.value)}
           />
           <br />
           <div id="emailLabel" className="labels">
@@ -37,7 +56,8 @@ const MessageMe = () => {
             className="contactSecAttr"
             id="contactEmail"
             placeholder="Your Email"
-            name="email"
+            value={email}
+            onChange={event => setEmail(event.target.value)}
           />
         </div>
         <div id="messageLabel" className="labels">
@@ -48,15 +68,11 @@ const MessageMe = () => {
           className="contactSecAttr"
           id="contactMessage"
           placeholder="Message"
-          name="message"
+          value={message}
+          onChange={event => setMessage(event.target.value)}
         />
         <div>
-          <button
-            id="submitButton"
-            className="contactSecAttr"
-            type="submit"
-            onClick={() => submitFunc()}
-          >
+          <button id="submitButton" className="contactSecAttr" type="submit">
             Submit
           </button>
         </div>
