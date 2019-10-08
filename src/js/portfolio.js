@@ -692,6 +692,30 @@ const Portfolio = () => (
           </span>
         </div>
       </div>
+      <div className="imgDiv">
+        <h5 className="thumbnailText">Library App</h5>
+        <img src="./images/Library_App.png" className="thumbnailImg" alt="" />
+        <div>
+          <span className="thumbnailText">
+            <a
+              href="https://github.com/NolanKuenzi/libraryApp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repository
+            </a>
+          </span>
+          <span className="thumbnailText">
+            <a
+              href="https://mysterious-reaches-14293.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Project
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 );
