@@ -717,6 +717,32 @@ const Portfolio = () => (
         </div>
       </div>
     </div>
+    <div className="row">
+      <div className="imgDiv">
+        <h5 className="thumbnailText">Stock Price Checker</h5>
+        <img src="./images/Stock_Price_Checker.png" className="thumbnailImg" alt="" />
+        <div>
+          <span className="thumbnailText">
+            <a
+              href="https://github.com/NolanKuenzi/stockPriceChecker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repository
+            </a>
+          </span>
+          <span className="thumbnailText">
+            <a
+              href="https://murmuring-ocean-06722.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Project
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
