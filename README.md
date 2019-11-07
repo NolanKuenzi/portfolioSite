@@ -1,1 +1,1 @@
-My portfolio site of projects that I have worked on.
+A portfolio site of projects that I have worked on.
