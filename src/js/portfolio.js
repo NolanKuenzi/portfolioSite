@@ -742,8 +742,31 @@ const Portfolio = () => (
           </span>
         </div>
       </div>
+      <div className="imgDiv">
+        <h5 className="thumbnailText">Anon Message Board</h5>
+        <img src="./images/Anon_Message_Board.png" className="thumbnailImg" alt="" />
+        <div>
+          <span className="thumbnailText">
+            <a
+              href="https://github.com/NolanKuenzi/messageBoard"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repository
+            </a>
+          </span>
+          <span className="thumbnailText">
+            <a
+              href="https://shielded-coast-12579.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Project
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 );
-
 export default Portfolio;
