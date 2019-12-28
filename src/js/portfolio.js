@@ -743,7 +743,7 @@ const Portfolio = () => (
         </div>
       </div>
       <div className="imgDiv">
-        <h5 className="thumbnailText">Anon Message Board</h5>
+        <h5 className="thumbnailText">Anonymous Message Board</h5>
         <img src="./images/Anon_Message_Board.png" className="thumbnailImg" alt="" />
         <div>
           <span className="thumbnailText">
