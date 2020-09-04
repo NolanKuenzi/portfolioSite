@@ -361,56 +361,6 @@ const Portfolio = () => (
         </div>
       </div>
     </div>
-    <div className="row">
-      <div className="imgDiv">
-        <h5 className="thumbnailText">Top Twitch Streams</h5>
-        <img src="./images/Top_Twitch_Streams.png" className="thumbnailImg" alt="" />
-        <div>
-          <span className="thumbnailText">
-            <a
-              href="https://github.com/NolanKuenzi/topTwitchStreams"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-          </span>
-          <span className="thumbnailText">
-            <a
-              href="https://nolankuenzi.github.io/topTwitchStreams/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Project
-            </a>
-          </span>
-        </div>
-      </div>
-      <div className="imgDiv">
-        <h5 className="thumbnailText">Twitch Clips</h5>
-        <img src="./images/Twitch_Clips.png" className="thumbnailImg" alt="" />
-        <div>
-          <span className="thumbnailText">
-            <a
-              href="https://github.com/NolanKuenzi/TwitchClips"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-          </span>
-          <span className="thumbnailText">
-            <a
-              href="https://nolankuenzi.github.io/TwitchClips/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Project
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
     <div className="portfolioSubText">
       <h4>Data Visualization Projects:</h4>
     </div>
